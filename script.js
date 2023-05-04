@@ -39,10 +39,10 @@ function showNotes() {
                         <div class="bottom-content">
                             <span>${note.date}</span>
                             <div class="settings">
-                                <i onclick="showMenu(this)" class="uil uil-ellipsis-h"></i>
+                                <i onclick="showMenu(this)" class="fas fa-ellipsis-v fa-fw fa-3x"></i>
                                 <ul class="menu">
-                                    <li onclick="updateNote(${id}, '${note.title}', '${filterDesc}')"><i class="uil uil-pen"></i>Edit</li>
-                                    <li onclick="deleteNote(${id})"><i class="uil uil-trash"></i>Delete</li>
+                                    <li onclick="updateNote(${id}, '${note.title}', '${filterDesc}')"><i class="fas fa-pen"></i>Edit</li>
+                                    <li onclick="deleteNote(${id})"><i class="fa fa-trash"></i>Delete</li>
                                 </ul>
                             </div>
                         </div>
