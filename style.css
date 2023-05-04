@@ -1,4 +1,4 @@
-/* Import Google Font - Poppins */
+/* to import Google Font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -45,7 +45,7 @@ body{
   font-size: 40px;
   border-radius: 50%;
   justify-content: center;
-  border: 2px dashed #00AF8C;
+  border: 2px double #00AF8C;
 }
 .add-box p{
   color: #00AF8C;
